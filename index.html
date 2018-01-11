@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>篮球火</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="css/index.css">
+	<!--rel="stylesheet":必须 引用样式表  -->
+</head>
+<body>
+	
+	<div id="app">
+		<router v-bind:is="view"></router>
+		<!-- </router-view> -->
+
+		<a href="#home">back home</a>
+		<!-- </router-link> -->
+	</div>
+	
+
+	<template id="home">
+		<div class="home">
+			<div>xxxxxx</div>
+			<a href="#FUJI">go FUJI</a>
+		</div>
+	</template>
+	
+
+	<template id="FUJI">
+		<div class="FUJI">
+			<div>FUJI</div>
+		</div>
+	</template>
+
+	
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/vue.min.js"></script>
+	<script src="js/vue-router.js"></script>
+	<script src="js/index.js"></script>
+	
+</body>
+</html>

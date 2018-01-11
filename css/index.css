@@ -1,0 +1,16 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	text-decoration: none;
+	color: black;
+}
+
+body{
+	/*background-color: lightgreen;*/
+}
+
+.home{
+	/*background-color: red;*/
+	height: 100px;
+}
